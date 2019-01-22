@@ -1,11 +1,10 @@
+@echo off
 REM small script to use racadm to upload a key and cert to the idrac of a Dell server. Tested on R620 and R630
 REM The cert needs to have both the private key (generally a .key file) and the public cert (a .crt file)
 REM Once uploaded the idrac reboots and hopefully no more cert errors.
 REM Any problems or questions - contact@gdwnet.com or twitter: @garyw_
 REM www.gdwnet.com
 REM Hope you find it useful
-
-@echo off
 
 echo iDRAC cert deployment script. This script WILL reboot the idrac.
 
